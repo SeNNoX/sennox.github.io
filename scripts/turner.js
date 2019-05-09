@@ -307,8 +307,8 @@ function loadScene() {
                     
         emitViewerReady();
         
-        initModelRoughness = 55;
-        initModelMetallic  = 55;
+        initModelRoughness = getItemRoughnessFactor();
+        initModelMetallic  = getItemMetallicFactor();
         
         emitModelLoaded();
         
